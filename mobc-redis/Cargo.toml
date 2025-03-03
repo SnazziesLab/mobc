@@ -22,7 +22,7 @@ default = ["mobc/tokio", "redis/tokio-comp"]
 async-std-comp = ["mobc/async-std", "redis/async-std-comp"]
 
 [dev-dependencies]
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
 
 [[examples]]
 name = "redis"
